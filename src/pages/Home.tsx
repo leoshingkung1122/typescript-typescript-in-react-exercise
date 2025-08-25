@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 // TODO1: กำหนด Type สำหรับ prop 'name'
 
-const Home = ({ name }) => {
+const Home = ({ name }: { name: string }) => {
   const navigate = useNavigate();
 
   return (
